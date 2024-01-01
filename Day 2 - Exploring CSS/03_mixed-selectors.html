@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* universal selector */
+    *{
+      /* margin: 0; */
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+      color: darkred;
+    }
+    #fifth{
+      font-size: 26px;
+    }
+    .bg-cyan{
+      background-color: cyan;
+    }
+    .text-blue{
+      color: darkblue;
+    }
+    .bg-yellow{
+      background-color: lightyellow;
+    }
+    input[type="password"]{
+      color: orange;
+    }
+
+    .box p{
+      color: darkcyan;
+    }
+
+  </style>
+  <title>Mixed Selectors</title>
+</head>
+<body>
+  <div>
+    <h3>Exploring mixed selectors</h3>
+    <p>First line of paragraph</p>
+    <p class="bg-cyan">Second line of paragraph</p>
+    <p>Third line of paragraph</p>
+    <p class="bg-cyan">Fourth line of paragraph</p>
+    <p id="fifth">Fifth line of paragraph</p>
+    <p class="bg-yellow text-blue">Sixth line of paragraph</p>
+    <p>Seventh line of paragraph</p>
+    <div>
+      <input type="text" name="" id="">
+      <input type="password" name="" id="">
+    </div>
+  </div>
+  <div class="box">
+    <p>1st line of paragraph in div</p>
+    <p>2nd line of paragraph in div</p>
+    <p>3rd line of paragraph in div</p>
+    <p>4rth line of paragraph in div</p>
+    <p>5th line of paragraph in div</p>
+  </div>
+</body>
+</html>
