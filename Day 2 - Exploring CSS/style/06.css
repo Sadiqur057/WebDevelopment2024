@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+}
+.box{
+  background-color: lightyellow;
+  height: 500px;
+  background-image: url('../images/bg.jpg');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* contain => stretch image */
+  /* background-size: contain; */
+}
+.box h1, .box p{
+  color: white;
+}
