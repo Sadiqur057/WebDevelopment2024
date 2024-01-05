@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+
+  <link rel="stylesheet" href="styles/03.css">
+  <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="01_Audio-video.html">Media Tags</a></li>
+        <li><a href="02_sematic-tags.html">Semantic Tag</a></li>
+        <li><a href="03_forms.html">Forms</a></li>
+        <li><a href="04_table.html">Table</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="box">
+      <h2>Create an Account</h2>
+      <form action="">
+        <label for="name"> Your Name:
+          <input type="text" name="" id="name">
+        </label>
+        <label for="email"> Your Email:
+          <input type="email" name="" id="email">
+        </label>
+        <label for="password"> Password:
+          &nbsp;  &nbsp;<input type="password" name="" id="password">
+        </label>
+  
+        <fieldset>
+          <legend>Your Gender</legend>
+          <label for="male">
+            <input type="radio" name="gender" id="male">Male
+          </label>
+          <label for="female">
+            <input type="radio" name="gender" id="female">Female
+          </label>
+          <label for="other">
+            <input type="radio" name="gender" id="other">Other
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Programming skills</legend>
+          <label for="html">
+            <input type="checkbox" name="" id="html">HTML
+          </label>
+          <label for="css">
+            <input type="checkbox" name="" id="css">CSS
+          </label>
+          <label for="js">
+            <input type="checkbox" name="" id="js"> JS
+          </label>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+  
+      </form>
+    </div>
+  </main>
+
+</body>
+</html>
